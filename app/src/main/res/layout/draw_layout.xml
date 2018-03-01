@@ -1,0 +1,56 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#004D40"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/drawBack"
+        android:layout_width="110dp"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_margin="40dp"
+        android:background="@drawable/shape_button"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="Play again"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="@dimen/dp_18" />
+
+    <Button
+        android:id="@+id/quit"
+        android:layout_width="110dp"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_margin="40dp"
+        android:background="@drawable/shape_button"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="Quit"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="@dimen/dp_18" />
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginTop="@dimen/dp_70"
+        android:scaleType="centerCrop"
+        android:src="@drawable/draw" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/img"
+        android:layout_marginTop="80dp"
+        android:gravity="center"
+        android:text="Its a TIE"
+        android:textColor="@color/orange"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

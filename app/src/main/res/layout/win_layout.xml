@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1A237E"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="110dp"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="40dp"
+        android:background="@drawable/shape_button"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="Play Again"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="@dimen/dp_18"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/quit"
+        android:layout_width="110dp"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_margin="40dp"
+        android:background="@drawable/shape_button"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="Quit"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="@dimen/dp_18" />
+
+    <ImageView
+
+        android:id="@+id/trophya"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/trophy" />
+
+    <TextView
+        android:id="@+id/tv_congo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/trophya"
+        android:layout_gravity=""
+        android:layout_marginTop="30dp"
+        android:fontFamily="sans-serif-condensed"
+        android:gravity="center"
+        android:text="CONGRATULATIONS !"
+        android:textColor="#9E9D24"
+        android:textSize="@dimen/congo"
+        android:textStyle="bold|italic" />
+
+
+    <TextView
+        android:id="@+id/wintxt"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_congo"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:textColor="@color/LightYellow"
+        android:textSize="22dp" />
+
+</RelativeLayout>

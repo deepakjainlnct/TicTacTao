@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#4E342E"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <TextView
+        android:id="@+id/tv_heading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_margin="@dimen/dp_15"
+        android:text="Game playing between A and B"
+        android:textColor="@color/orange"
+        android:textSize="@dimen/dp_20" />
+
+    <TextView
+        android:id="@+id/tv_turn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="Game playing between A and B"
+        android:textColor="@color/PapayaWhip"
+        android:textSize="@dimen/dp_18" />
+
+    <GridView
+        android:id="@+id/gridview1"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_marginTop="90dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:numColumns="3"
+        android:orientation="vertical"
+        android:layout_marginLeft="@dimen/dp_20"
+        android:layout_marginRight="@dimen/dp_20"
+        android:horizontalSpacing="@dimen/dp_15"
+        android:paddingTop="10dp"
+        android:verticalSpacing="@dimen/dp_15" >
+    </GridView>
+</LinearLayout>
